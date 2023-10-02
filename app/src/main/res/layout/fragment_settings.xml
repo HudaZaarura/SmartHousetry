@@ -87,7 +87,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="24dp"
                             android:fontFamily="@font/outfit_medium"
-                            android:text="Essakine Ibrahime"
+                            android:text="Huda Zaarura"
                             android:textColor="@color/blue_main"
                             android:textSize="22dp"
                             app:layout_constraintEnd_toEndOf="parent"

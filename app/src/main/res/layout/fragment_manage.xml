@@ -85,21 +85,23 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/outfit_medium"
-                        android:text="Essakine Ibrahime"
+                        android:text="Huda Zaarura"
                         android:textColor="@color/blue_main"
                         android:textSize="18dp"
                         app:layout_constraintBottom_toBottomOf="@+id/appCompatImageView"
                         app:layout_constraintStart_toStartOf="@+id/ManageYourhousetext"
                         app:layout_constraintTop_toTopOf="@+id/appCompatImageView" />
 
-                </androidx.constraintlayout.widget.ConstraintLayout>
+                    <androidx.appcompat.widget.Toolbar
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:background="@drawable/continuewith_background"
+                        android:backgroundTint="#00FFFFFF"
+                        app:layout_collapseMode="pin"
+                        tools:layout_editor_absoluteX="67dp"
+                        tools:layout_editor_absoluteY="3dp" />
 
-                <androidx.appcompat.widget.Toolbar
-                    android:layout_width="match_parent"
-                    android:layout_height="70dp"
-                    android:background="@drawable/continuewith_background"
-                    android:backgroundTint="#00FFFFFF"
-                    app:layout_collapseMode="pin" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
             </com.google.android.material.appbar.CollapsingToolbarLayout>
         </com.google.android.material.appbar.AppBarLayout>
